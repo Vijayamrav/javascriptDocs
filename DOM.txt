@@ -1,0 +1,28 @@
+DOM
+
+DOM is a programming interface that a web browser uses to represent an HTML or XML document. By using DOM with JavaScript, we can change the page content, add new elements, remove existing elements
+
+DOM offers web developers the ability to create dynamic and interactive content for user interactions. When the user clicks a button or submits a form, page content can be dynamically updated using the JavaScript DOM. This forms the basis of modern websites and applications.
+
+DOM Elements
+DOM methods are used to access and manipulate HTML elements on web pages using JavaScript. These methods are used to select and make changes to certain types of elements.
+
+getElementById():
+This method selects based on the id attribute of an element on the page.
+
+var element = document.getElementById("myElementId");
+getElementsByClassName():
+
+This method is used to select all elements belonging to a particular class.
+
+var elements = document.getElementsByClassName("myClassName");
+getElementsByTagName():
+
+This method is used to select all elements with a specific tag.
+
+var elements = document.getElementsByTagName("div");
+querySelector() and querySelectorAll():
+querySelector() selects the first element that matches a given CSS selector, while querySelectorAll() selects all matching elements.
+
+var element = document.querySelector("#myElementId");
+var elements = document.querySelectorAll(".myClassName");
